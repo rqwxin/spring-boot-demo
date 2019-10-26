@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.1.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.cgx.springboot</groupId>
+    <artifactId>demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>demo</name>
+    <description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <modules>
+        <module>01quickstart</module>
+        <module>02restful</module>
+       <!-- <module>03logs</module>
+        <module>04Scheduled</module>
+        <module>05-Async</module>
+        <module>06-GlobalException</module>
+        <module>07-EhCache</module>
+        <module>08-AOP</module>
+        <module>09-JavaMailSender</module>
+        <module>010-SpringData</module>
+        <module>011-SpringSecurity</module>
+        <module>012-Swagger2</module>
+        <module>013-MyBatis</module>
+        <module>014-JdbcTemplate</module>
+        <module>015-Redis</module>
+        <module>016-Transcation</module>
+        <module>017-monitor</module>
+        <module>018-MQ</module>
+        <module>019-Definition-Starter</module>
+        <module>020-Freemarker</module>
+        <module>021-MultiDataSource</module>
+        <module>022-FarstPlus</module>
+        <module>023-MongoDB</module>
+        <module>013-MyBatis-XML</module>
+        <module>024-WebSocket</module>-->
+
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
