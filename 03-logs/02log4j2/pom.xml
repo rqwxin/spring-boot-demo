@@ -5,13 +5,13 @@
     <parent>
         <groupId>com.cgx.springboot</groupId>
         <artifactId>03-logs</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.3</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
 
     <groupId>com.cgx.springboot</groupId>
     <artifactId>02log4j2</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.3</version>
     <name>0302logback</name>
     <description>Spring Boot整合log4j2</description>
 

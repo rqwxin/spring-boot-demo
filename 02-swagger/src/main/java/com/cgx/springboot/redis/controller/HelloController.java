@@ -1,5 +1,7 @@
-package com.cgx.springboot.quickstart.controller;
+package com.cgx.springboot.redis.controller;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @author: cgx
  * @create: 2019-10-26 14:24
  **/
+@Api(tags = "hello",value = "imya")
 @RestController
 @RequestMapping("/hello")
 public class HelloController {
@@ -20,6 +23,7 @@ public class HelloController {
     private ApplicationContext applicationContext;
 
     @GetMapping("info")
+    @ApiOperation("info")
     public String info(){
         String applicationName = applicationContext.getApplicationName();
         String id = applicationContext.getId();

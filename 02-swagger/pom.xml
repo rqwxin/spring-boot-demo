@@ -5,12 +5,11 @@
     <parent>
         <groupId>com.cgx.springboot</groupId>
         <artifactId>demo</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.3</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.cgx.springboot</groupId>
     <artifactId>02swagger</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <description>Spring Boot整合swagger</description>
 
     <properties>

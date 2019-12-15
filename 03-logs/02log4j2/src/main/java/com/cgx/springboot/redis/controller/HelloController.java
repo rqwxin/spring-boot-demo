@@ -1,4 +1,4 @@
-package com.cgx.springboot.logs.controller;
+package com.cgx.springboot.redis.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;

@@ -5,12 +5,10 @@
     <parent>
         <groupId>com.cgx.springboot</groupId>
         <artifactId>demo</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
+        <version>1.0.3</version>
     </parent>
     <groupId>com.cgx.springboot</groupId>
     <artifactId>01quickstart</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>01quickstart</name>
     <description>Spring Boot快速启动demo</description>
 
