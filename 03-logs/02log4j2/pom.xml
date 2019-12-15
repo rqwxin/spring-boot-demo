@@ -4,15 +4,16 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.cgx.springboot</groupId>
-        <artifactId>demo</artifactId>
+        <artifactId>03-logs</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath> <!-- lookup parent from repository -->
     </parent>
+
     <groupId>com.cgx.springboot</groupId>
-    <artifactId>01quickstart</artifactId>
+    <artifactId>02log4j2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>01quickstart</name>
-    <description>Spring Boot快速启动demo</description>
+    <name>0302logback</name>
+    <description>Spring Boot整合log4j2</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -22,6 +23,13 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+                <!-- 排除默认日志框架 -->
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-logging</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -44,7 +52,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
+        <!-- log4j2日志 相关jar包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
 
     </dependencies>
 

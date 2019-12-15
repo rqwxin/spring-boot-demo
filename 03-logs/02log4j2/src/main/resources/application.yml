@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: log4j2   #应用名称
+
+server:
+  port: 8004
+  servlet:
+    context-path: /log4j2
+
+
+

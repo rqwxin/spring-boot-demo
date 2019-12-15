@@ -11,7 +11,7 @@
     <groupId>com.cgx.springboot</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>spring-boot-demo</name>
     <description>Demo project for Spring Boot</description>
     <packaging>pom</packaging>
 
@@ -36,6 +36,7 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
@@ -50,7 +51,8 @@
 
     <modules>
         <module>01quickstart</module>
-        <module>02restful</module>
+        <module>02-swagger</module>
+        <module>03-logs</module>
        <!-- <module>03logs</module>
         <module>04Scheduled</module>
         <module>05-Async</module>

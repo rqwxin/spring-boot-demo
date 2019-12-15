@@ -12,10 +12,10 @@ import org.springframework.core.env.ConfigurableEnvironment;
  */
 @SpringBootApplication
 @ComponentScan("com.cgx")
-public class QuickStartApplication {
+public class SwaggerApplication {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(QuickStartApplication.class, args);
+        ConfigurableApplicationContext context = SpringApplication.run(SwaggerApplication.class, args);
         ConfigurableEnvironment environment = context.getEnvironment();
     }
 

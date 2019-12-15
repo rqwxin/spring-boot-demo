@@ -2,9 +2,9 @@ spring:
   profiles:
     active:
   application:
-    name: quick   #”¶”√√˚≥∆
+    name: boot2
 server:
   port: 8002
   servlet:
-    context-path: /quick
+    context-path: /boot2
 
